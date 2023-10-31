@@ -16,6 +16,9 @@ extern void EnemyX_Start_m344B6AABB07BCD8BD45B6365348CEE876A76EB3A (void);
 extern void EnemyX_Update_mE2F7221B3009D66CF995F2AC41ABBB285B328290 (void);
 extern void EnemyX_OnCollisionEnter_mEAAF0CACB97A3F477582034B3EAD401F8D30C94A (void);
 extern void EnemyX__ctor_mB20BA4CA51958C20D82960C349538202EB01DECA (void);
+extern void Link_OpenGithub_mCBE99A55B22838B04ED52E2A5CBBFE3258E4C412 (void);
+extern void Link_openWindow_m57B59E3B369B494981D14DEE06A0C223534025D9 (void);
+extern void Link__ctor_m63C9F1B9DEE13922D1EE2C3508D9BAE07D8324F8 (void);
 extern void PlayerControllerX_Start_m5BAE410291E1DABAC99D3F233D14AF0AA072A606 (void);
 extern void PlayerControllerX_Update_mE690DFA5B4D44A839AC48EC903E382790B5CCC8B (void);
 extern void PlayerControllerX_OnTriggerEnter_m3CF3B3203B081E6F6C5371B913DCD5FCBD1C0780 (void);
@@ -28,6 +31,9 @@ extern void U3CPowerupCooldownU3Ed__11_MoveNext_mB4C027B1C5F973D9065FAAEEE0E15A4
 extern void U3CPowerupCooldownU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA93BCCE01952B4D579D82EC6D06E9FA6177D12FE (void);
 extern void U3CPowerupCooldownU3Ed__11_System_Collections_IEnumerator_Reset_mA481AE2157AB6DFC2CE072E96BAD52751C6CA36F (void);
 extern void U3CPowerupCooldownU3Ed__11_System_Collections_IEnumerator_get_Current_m5DD80D18C11BECB7ACD84981E2C901ABC93B651E (void);
+extern void PressHandler_OnPointerDown_mE4A3AB7C45DF4246DD501D809A6EBB6AE2E41FD5 (void);
+extern void PressHandler__ctor_m0CD7508CE3B1FFF4EFF0733C5212B9B305274F95 (void);
+extern void ButtonPressEvent__ctor_m516CD67C95D008E473BDF03C87FB59B4A44ED431 (void);
 extern void RotateCameraX_Update_mDEB2FEBD64480EB28EAE47E3A680F37F79F0AF09 (void);
 extern void RotateCameraX__ctor_m370F5E3DC01EC0C36A8CCD1C8151B1FD76536AD3 (void);
 extern void SpawnManagerX_Update_mCB247E2DB1AD8C98E5B2E329FC986FCC0F204A65 (void);
@@ -60,12 +66,15 @@ extern void SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53 (void)
 extern void SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[48] = 
+static Il2CppMethodPointer s_methodPointers[54] = 
 {
 	EnemyX_Start_m344B6AABB07BCD8BD45B6365348CEE876A76EB3A,
 	EnemyX_Update_mE2F7221B3009D66CF995F2AC41ABBB285B328290,
 	EnemyX_OnCollisionEnter_mEAAF0CACB97A3F477582034B3EAD401F8D30C94A,
 	EnemyX__ctor_mB20BA4CA51958C20D82960C349538202EB01DECA,
+	Link_OpenGithub_mCBE99A55B22838B04ED52E2A5CBBFE3258E4C412,
+	Link_openWindow_m57B59E3B369B494981D14DEE06A0C223534025D9,
+	Link__ctor_m63C9F1B9DEE13922D1EE2C3508D9BAE07D8324F8,
 	PlayerControllerX_Start_m5BAE410291E1DABAC99D3F233D14AF0AA072A606,
 	PlayerControllerX_Update_mE690DFA5B4D44A839AC48EC903E382790B5CCC8B,
 	PlayerControllerX_OnTriggerEnter_m3CF3B3203B081E6F6C5371B913DCD5FCBD1C0780,
@@ -78,6 +87,9 @@ static Il2CppMethodPointer s_methodPointers[48] =
 	U3CPowerupCooldownU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA93BCCE01952B4D579D82EC6D06E9FA6177D12FE,
 	U3CPowerupCooldownU3Ed__11_System_Collections_IEnumerator_Reset_mA481AE2157AB6DFC2CE072E96BAD52751C6CA36F,
 	U3CPowerupCooldownU3Ed__11_System_Collections_IEnumerator_get_Current_m5DD80D18C11BECB7ACD84981E2C901ABC93B651E,
+	PressHandler_OnPointerDown_mE4A3AB7C45DF4246DD501D809A6EBB6AE2E41FD5,
+	PressHandler__ctor_m0CD7508CE3B1FFF4EFF0733C5212B9B305274F95,
+	ButtonPressEvent__ctor_m516CD67C95D008E473BDF03C87FB59B4A44ED431,
 	RotateCameraX_Update_mDEB2FEBD64480EB28EAE47E3A680F37F79F0AF09,
 	RotateCameraX__ctor_m370F5E3DC01EC0C36A8CCD1C8151B1FD76536AD3,
 	SpawnManagerX_Update_mCB247E2DB1AD8C98E5B2E329FC986FCC0F204A65,
@@ -111,62 +123,68 @@ static Il2CppMethodPointer s_methodPointers[48] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[48] = 
+static const int32_t s_InvokerIndices[54] = 
 {
-	1119,
-	1119,
-	946,
-	1119,
-	1119,
-	1119,
-	946,
-	1091,
-	946,
-	1119,
-	937,
-	1119,
-	1065,
-	1091,
-	1119,
-	1091,
-	1119,
-	1119,
-	1119,
-	1117,
-	937,
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	946,
-	1091,
-	946,
-	1119,
-	1119,
-	937,
-	1119,
-	1065,
-	1091,
-	1119,
-	1091,
-	1119,
-	1119,
-	1119,
-	1119,
-	937,
-	1117,
-	1119,
-	1119,
-	2158,
-	1119,
+	4195,
+	4195,
+	3389,
+	4195,
+	4195,
+	5973,
+	4195,
+	4195,
+	4195,
+	3389,
+	4108,
+	3389,
+	4195,
+	3365,
+	4195,
+	4037,
+	4108,
+	4195,
+	4108,
+	3389,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4187,
+	3365,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	3389,
+	4108,
+	3389,
+	4195,
+	4195,
+	3365,
+	4195,
+	4037,
+	4108,
+	4195,
+	4108,
+	4195,
+	4195,
+	4195,
+	4195,
+	3365,
+	4187,
+	4195,
+	4195,
+	6098,
+	4195,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	48,
+	54,
 	s_methodPointers,
 	0,
 	NULL,
